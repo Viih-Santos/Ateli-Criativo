@@ -65,9 +65,10 @@ section button {
 section p {
     color: var(--cor-letras); /*cor da fonte*/
     font: var(--fonte-poppins); /*fonte usada*/
-    font-size: 1.2rem;
+    font-size: 1.2rem; /*Tamanho da fonte*/
     font-style: italic; /*estilo da fonte*/
     text-align: center; /*texto alinhado no centro*/ 
+    padding: 2%; /*espaço ao redor da fonte*/
     margin-top: 2rem; /*margem de cima*/
 }
 
