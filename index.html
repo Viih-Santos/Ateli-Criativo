@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê Criativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>A arte de criar</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome de um hobbie artistico" id="campo_pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button> <!--onclick é usado para fazer uma função no js para fazer a barra de pesquisa funcionar-->
+            <p>"Criar é participar da obra divina, dando vida a novas ideias e expressões, cada obra de arte é uma semente plantada, capaz de gerar beleza e inspiração."</p>
+        </section>
+        <section class="resultado_pesquisa"
+        id="resultado_pesquisa"> <!-- o id é tipo uma classe mas para o Js -->
+                <!--<div class="hobbie">
+                    <h2>Pintura</h2>
+                    <p class="descricao_hobbie">A pintura é uma técnica usada desde a antiguidade. Você pode usar a sua imaginação e pintar onde quiser: em uma pedra, no papel, na parede, no chão, em uma tela e em muitos outros lugares. Podemos usar diversas técnicas diferentes, como aquarela, tinta a óleo, tinta acrílica e guache. Tudo vai muito da sua preferência e do seu gosto. Com pincéis achatados ou arredondados, podemos fazer muitas coisas lindas em uma superfície. Cada material que é usado traz a sua característica diferente. Se eu fosse você, testaria essa linda arte que é pintar.</p>
+                    <img src="img/pintura_2.jpeg" alt="Pintura em tela com uma arte abstrata." class="imagem">
+                    <img src="img/pintura_3.jpeg" alt="Pintura em um caderno com tinta aquarelavel." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2>Desenho</h2>
+                    <p class="descricao_hobbie">O desenho é a base para várias outras formas de arte. Existem muitos tipos de estilos, como um desenho simples, um retrato, uma paisagem, entre outros. E depois que as pessoas veem as técnicas, muitas procuram por seus próprios estilos, como cartoon, realismo ou abstrato.</p>
+                    <img src="img/desenho.jpeg" alt="Um desenho em um caderno apenas com lápis grafite com estilo mais realista." class="imagem">
+                    <img src="img/desenho_2.jpeg" alt="Um desenho em um caderno apenas com lápis grafite com estilo cartoon." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2>Fotografia</h2>
+                    <p class="descricao_hobbie">A fotografia é um momento congelado. Acho a fotografia um momento mágico, capaz de retratar e expressar o mundo de maneiras diferentes. Uma foto pode ter muitos significados e capturar um momento especial, desde paisagens até emoções intensas.</p>
+                    <img src="img/fotografia_1.jpeg" alt="Uma camera capturando a imagem de uma praia." class="imagem">
+                    <img src="img/fotografia_2.jpeg" alt="Um celular capturando a imagem de árvores." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2 class="nome_hobbie">Lettering</h2>
+                    <p class="descricao_hobbie">O lettering é a arte de desenhar letras à mão, permitindo criar composições únicas e personalizadas. Com ele, você pode utilizar diversas técnicas, como letras blocadas, caligrafia e letras com serifas, explorando diferentes formas, tamanhos, espessuras, texturas e estilos. Ao contrário das fontes prontas, o lettering oferece total liberdade para criar desde simples palavras até frases e os nomes dos meses, como os utilizados em bullet journals e para começar você precisa de um papel, lápis e canetas. Use sua imaginação!</p>
+                    <img src="img/lettering_1.jpeg" alt="Lettering da frase His Unfailing love Continues Forever." class="imagem">
+                    <img src="img/lettering_3.jpeg" alt="Bullet Journal de march." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2 class="nome_hobbie">Cerâmica Artesanal</h2>
+                    <p class="descricao_hobbie">A cerâmica artesanal é uma arte milenar, usando argila e as suas mãos você cria diversas peças, como pratos, xícaras, vasos e outras coisas que surgem com a sua imaginação, isso resultara peças únicas e personalizadas. *lembre-se, para a argila virar cerâmica é necessário um processo de queima em um forno especial, então procure e entre em contato com um atêlie de cerâmica da sua cidade para realizar a queima. Não pode assar em forno doméstico, pois ele não atinge a temperatura necessária para esse processo.*</p>
+                    <img src="img/ceramica.jpeg" alt="Imagem de pratos coloridos feitos de cerâmica." class="imagem">
+                    <img src="img/ceramica_2.jpeg" alt="Imagem de canecas feita de cerâmica com flores pintadas." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2 class="nome_hobbie">Fios e Agulhas</h2>
+                    <p class="descricao_hobbie">A costura, o bordado, o tricô e o crochê são hobbies que envolvem a criação de peças únicas e personalizadas, como roupas, tapetes, quadros e muito mais. Cada uma dessas técnicas possui suas próprias características, resultando em peças com estilos e com texturas diversas.</p>
+                    <img src="img/linhas_1.jpeg" alt="Uma imagem de alguém tricotando." class="imagem">
+                    <img src="img/linhas_3.jpeg" alt="Uma imagem de um bordado no bastidor." class="imagem">
+                </div>
+                <div class="hobbie">
+                    <h2 class="nome_hobbie">Journaling</h2>
+                    <p class="descricao_hobbie">O journaling é uma arte em criar cadernos personalizados, combinando escrita, desenhos e colagens deixando seu caderno com a sua personalidade, é um espaço para registrar pensamentos, sentimentos, sonhos e experiências, vocês também podem escolher um desses ou simplismente misturar todos os estilos, é um lugar onde podemos usar nossa imaginação.</p>
+                    <img src="img/journaling.jpeg" alt="Colagem de fotos." class="imagem">
+                    <img src="img/journaling_1.jpeg" alt="Colagem de personagens do filme Enola Holmes." class="imagem">
+                    <img src="img/journaling_2.jpeg" alt="Colagem de papeis estampados." class="imagem">
+                    <img src="img/journaling_3.jpeg" alt="Journal escrito." class="imagem">
+                </div>-->
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Projeto de uma página web para conhecer mais dos hobbies artisticos.</p>
+        <p>Colab: Alura + Google Gemini
+        <p>Criadora: Vitória Santos : )
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
