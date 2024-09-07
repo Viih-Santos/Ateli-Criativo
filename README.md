@@ -1,10 +1,10 @@
 # 🎨 Ateliê Criativo: Seu Guia para o Mundo dos Hobbies Artísticos! 
 
-*O que é esse projeto?*
+***O que é esse projeto?***
 
 É um cantinho onde você pode conhecer mais sobre alguns hobbies artísticos! Você encontra informações sobre atividades criativas, desde pintura até costura. 
 
-*Como funciona?*
+***Como funciona?***
 
 .Pesquise: Digite o nome de um hobbie artísticos que tenha interesse.
 
@@ -12,7 +12,7 @@
 
 .Inspire-se: Veja fotos e dias para começar a sua jornada.
 
-*Tecnologias utilizadas*
+***Tecnologias utilizadas***
 
 *HTML: A estrutura da página.
 
@@ -20,7 +20,7 @@
 
 *JavaScript: A mágica por trás da pesquisa.
 
-*Como acessar o projeto?*
+***Como acessar o projeto?***
 
 .Pelo codigo aqui no GitHub
 
